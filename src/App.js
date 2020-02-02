@@ -1,10 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./component/Header";
+import Square from "./component/Square";
+import Board from "./component/Board";
+import Game from "./component/Game";
 
 function App() {
   return (
     <div className="App">
+      <Header />
+      <Board />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
